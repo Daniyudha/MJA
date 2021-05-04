@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>dau-gaharu</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="54" height="54"></rect>
+    </defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1a.-beranda" transform="translate(-108.000000, -1843.000000)">
+            <g id="Group-17" transform="translate(108.000000, 1640.000000)">
+                <g id="dau-gaharu" transform="translate(0.000000, 203.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <g id="leaf" mask="url(#mask-2)">
+                        <g transform="translate(19.000000, 17.000000)">
+                            <path d="M10.9959668,0 C10.9959668,0 12.7628326,4.32250528 5.190375,7.22591613 C1.07567561,8.80310648 -2.084656,12.8456015 1.68877835,19.0902517 C2.00128064,16.2989957 3.34126759,10.1446407 9.10314007,8.74026484 C9.10314007,8.74026484 3.74033583,10.7455639 3.26660347,19.8227297 C6.02223331,20.2096184 12.4850043,20.469594 14.4037771,14.8611757 C16.9375172,7.4512177 10.9959668,0 10.9959668,0 Z" id="Path" fill="#3A7F0D" fill-rule="nonzero"></path>
+                            <path d="M3.26910285,19.7849613 C9.11908851,17.4502594 13.3756577,11.9809338 13.9631318,5.45186957 C12.7671966,2.22591923 10.9959668,0 10.9959668,0 C10.9959668,0 12.7628326,4.32250528 5.190375,7.22591613 C1.07567561,8.80310648 -2.084656,12.8456015 1.68877835,19.0902517 C2.00128064,16.2989957 3.34126759,10.1446407 9.10314007,8.74026484 C9.10282268,8.74030451 3.75596689,10.7406048 3.26910285,19.7849613 Z" id="Path" fill="#49A010" fill-rule="nonzero"></path>
+                            <circle id="Oval" fill="#3A7F0D" fill-rule="nonzero" cx="1.10503345" cy="6.82311865" r="1"></circle>
+                            <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1.495691, 1.588775)">
+                                <circle id="Oval" fill="#49A010" fill-rule="nonzero" cx="1.32808512" cy="4.68745494" r="1"></circle>
+                                <circle id="Oval" fill="#49A010" fill-rule="nonzero" cx="0.976544848" cy="0.976544848" r="1"></circle>
+                                <circle id="Oval" fill="#49A010" fill-rule="nonzero" cx="3.98433472" cy="3.20309884" r="1"></circle>
+                                <circle id="Oval" fill="#49A010" fill-rule="nonzero" cx="6.60182403" cy="1.44527844" r="1"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

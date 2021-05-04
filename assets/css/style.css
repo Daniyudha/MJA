@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.nav-menu {
+    background: transparent;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+  
+    transition: all .4s;
+  }
+  
+  @media (max-width:769px) {
+    .nav-menu {
+        background: rgb(235, 235, 235) !important;
+    }
+  }
+  
+  .nav-item {
+    padding: 0 10px;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 34em) {
+    .menu-item {
+        padding: 10px 10px 10px;
+    }
+  }
+  
+  .navbar-toggler {
+    cursor: pointer;
+    outline: 0;
+    background-color: #3B61A6;
+  }
+  
+  .ham {
+    transition: width 0.3s;
+    background: #ffffff;
+  }
+  
+  .line1, .line3  {
+    width: 28px;
+    height: 2px;
+    margin: 6px;    
+    transition:  0.4s;
+    
+  }
+  
+  .change .line1 {
+    transform: rotate(-45deg) translate(-3px, 2px);
+  }
+  
+  .change .line3 {
+    transform: rotate(45deg) translate(-3px, -2px);
+  }
+  
+  .dropdown-item {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+  
+  .costum-navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(235, 235, 235) !important;  
+    position: fixed;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+      color: #6A6768;
+  } 
+  
+  .navbar-light .navbar-nav .nav-link:hover,
+  .navbar-light .navbar-nav .nav-link:focus {
+      color: #29BB89;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:active,
+  .navbar-light .navbar-nav .nav-link.active {
+      color: #3B61A6;
+      font-weight: bold;
+  }
+
+  .btn-bg-putih {
+    color: #29BB89;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8px -4px #6A6768;
+    font-size: 14px;
+    transition-duration: 0.6s;
+  }
+  
+  .btn-bg-putih:hover {
+  color: #FFFFFF;
+  background-color: #29BB89;
+  border-color: #29BB89;
+  text-decoration: none;
+  }
+
+  .btn-bg-ijo {
+    color: #FFFFFF;
+    background-color: #29BB89;
+    box-shadow: 0px 0px 8px -4px #6A6768;
+    transition-duration: 0.6s;
+  }
+  
+  .btn-bg-ijo:hover {
+  color: #FFFFFF;
+  background-color: #0aa56f;
+  border-color: #0aa56f;
+  text-decoration: none;
+  }
+
+  .rounded-15{
+      border-radius: 15px;
+  }
+
+  .text-abumuda{
+      color: #6A6768;
+  }
+
+  .z{
+      z-index: -100;
+  }
+
+  .img-header{
+      margin-top: -620px;
+      margin-left: -100px;
+      z-index: 1;
+      margin-bottom: 130px;
+  }
+
+  .mt-section{
+      margin-top: 100px;
+  }
+  
+  .-mt-section{
+    margin-top: -100px;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    /* box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1); */
+    height: 300px;
+    background-color: #FFFFFF;
+  }
+  
+  .card-title {
+    margin: 0.8em 0.8em;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+
+  .card-text{
+      font-size: 14px;
+  }
+  
+  @media (max-width: 800px){
+    .card {
+      border: none;
+      border-radius: 1rem;
+      transition: all 0.2s;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+      width: 230px;
+    }
+  }
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .card:hover .btn {
+      opacity: 1;
+    }
+  }
+
+  .bg-1-2{
+      margin-top: -150px;
+  }
+
+  .list-produk {
+    border: none;
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+    box-shadow: 0 0rem 0rem 0 rgba(0, 0, 0, 0.1);
+    width: 390px;
+    height: 56px;
+  }
+  
+  .list{
+    text-decoration: none;
+    color: black;
+  }
+
+  .list:hover{
+    text-decoration: none;
+    color: black;
+  }
+
+  @media (min-width: 992px) {
+    .list-produk:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+  }
