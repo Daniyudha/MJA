@@ -195,6 +195,10 @@ body{
       margin-top: -150px;
   }
 
+  .bg-2-1{
+    margin-top: -270px;
+}
+
   .list-produk {
     border: none;
     border-radius: 0.5rem;
@@ -525,9 +529,9 @@ body{
     border: none;
     border-radius: 1rem;
     transition: all 0.2s;
-    /* box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1); */
-    height: 300px;
-    background-color: #FFFFFF;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    /* height: 300px; */
+    background-color: #DDFFEB;
   }
   
   .khasiat-card-title {
@@ -539,6 +543,11 @@ body{
 
   .khasiat-card-text{
       font-size: 14px;
+  }
+
+  .khasiat-card ul{
+    list-style: url('../images/produk/checklist.svg');
+    font-size: 14px;
   }
   
   @media (max-width: 800px){
