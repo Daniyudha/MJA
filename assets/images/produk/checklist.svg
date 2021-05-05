@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>checklist</title>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2a.-produk" transform="translate(-829.000000, -1003.000000)" fill-rule="nonzero">
+            <g id="Group-11" transform="translate(784.000000, 880.000000)">
+                <g id="Group-8" transform="translate(45.000000, 55.000000)">
+                    <g id="checklist" transform="translate(0.000000, 68.000000)">
+                        <circle id="Oval" fill="#52FFC4" cx="10" cy="10" r="10"></circle>
+                        <circle id="Oval" fill="#29BB89" cx="10" cy="10" r="8.23811496"></circle>
+                        <path d="M9.02434771,13.802995 C8.76050222,13.802995 8.50789793,13.6961749 8.32421475,13.5067681 L5.15312684,10.2397716 C4.90631755,9.99040146 4.81241053,9.62771327 4.90718664,9.28990006 C5.00196275,8.95208686 5.27082519,8.69117645 5.61133079,8.60658209 C5.9518364,8.52198773 6.31154269,8.62673809 6.55339277,8.88092072 L8.99971663,11.4011378 L13.4245918,6.5185169 C13.7884131,6.12854488 14.3979225,6.10288775 14.7932301,6.46090445 C15.1885378,6.81892115 15.2232022,7.4279847 14.8710683,7.82854153 L9.74867581,13.4832269 C9.56709458,13.6830611 9.31089151,13.7988141 9.04091375,13.802995 L9.02434771,13.802995 Z" id="Path" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

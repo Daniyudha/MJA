@@ -144,6 +144,10 @@ body{
   .-mt-section{
     margin-top: -100px;
   }
+
+  .-mt-section-2{
+    margin-top: -200px;
+  }
   
   .card {
     border: none;
@@ -214,5 +218,347 @@ body{
     .list-produk:hover {
       transform: scale(1.02);
       box-shadow: 0 0rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  .img-opacity {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+  }
+
+  .img-opacity:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+  }
+
+  /* Testimonial */
+  .heading {
+    position: relative;
+  }
+
+  .testimonials{
+    width: 98vw;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .testimonials .heading h2 {
+      font-size: 25px;
+      font-weight: 700;
+      color: #ffffff;
+  }
+
+  .testimonials p {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1.7;
+      color: #6A6768;
+      margin: 20px 0;
+      padding: 0;
+  }
+
+  /* Image */
+  .testimonials .carousel-inner .carousel-item .team {
+      width: 100px;
+      height: 100px;
+      /* border: 2px solid #ff0000; */
+      border-radius: 100%;
+      padding: 5px;
+      margin: 50px 0 15px;
+  }
+
+  .testimonials .carousel-inner .carousel-item h3 {
+      font-size: 20px;
+      color: #000000;
+      font-weight: 600;
+  }
+
+  .testimonials .carousel-inner .carousel-item h4 {
+      font-size: 14px;
+      font-weight: 300;
+      color: #e2e1e1;
+      margin-bottom: 20px;
+  }
+
+  .testimonials .carousel-indicators {
+      bottom: -30px;
+  }
+
+  .testimonials .carousel-indicators li {
+      background-color: #b8b7b7;
+      border-radius: 30px;
+      height: 4px;
+      width: 40px;
+  }
+
+  .testimonials .carousel-indicators .active {
+      background-color: #29BB89;
+  }
+
+  .testimonials .control span {
+      cursor: pointer;
+  }
+
+  .testimonials .icon {
+      height: 40px;
+      width: 40px;
+      background-size: 100%, 100%;
+      border-radius: 50%;
+      font-size: 30px;
+      background-image: none;
+      color: #7c7c7c;
+  }
+
+  .text-abu{
+    color: #6A6768;
+  }
+
+  .chat {
+    position: relative;
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+  }
+
+  .card-berita {
+    position: relative;
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    /* width: 370px; */
+    background-color: #FFFFFF;
+  }
+
+  .card-support {
+    position: relative;
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    /* width: 370px; */
+    background-color: #FFFFFF;
+    padding: 20px 0 25px 0;
+  }
+
+  .card-berita .btn{
+    padding: 8px 20px 8px 20px;
+    border-radius: 25px;
+    border: 1px solid #6A6768;
+    color: #000;
+    background-color: #FFFFFF;
+  }
+
+  .card-support .btn{
+    padding: 6px 25px 6px 25px;
+    border-radius: 25px;
+    border: 1px solid #6A6768;
+    color: #000;
+    background-color: #FFFFFF;
+    font-size: 14px;
+  }
+
+  @media (max-width: 800px){
+    .chat {
+      border: none;
+      border-radius: 1rem;
+      transition: all 0.2s;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+      /* width: 230px; */
+    }
+    .card-berita {
+      border: none;
+      border-radius: 1rem;
+      transition: all 0.2s;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+      /* width: 230px; */
+    }
+    .card-support {
+      border: none;
+      border-radius: 1rem;
+      transition: all 0.2s;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+      /* width: 230px; */
+    }
+  }
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .chat:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .card-berita:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .card-berita:hover .btn:hover {
+      color: #FFFFFF;
+      background-color: #29BB89;
+      border: none;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    }
+    .card-support:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .card-support:hover .btn:hover {
+      color: #FFFFFF;
+      background-color: #29BB89;
+      border: none;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .not{
+    list-style: url('../images/beranda/close-icon.svg');
+  }
+
+  .title-support{
+    font-size: 12px;
+    font-weight: bolder;
+  }
+
+  .card-body ul{
+    list-style: url('../images/beranda/checklist-icon.svg');
+    font-size: 12px;
+  }
+
+  .cs{
+    /* position: absolute; */
+    margin-top: 200px;
+    z-index: 1000;
+  }
+
+  .bg-green{
+    background-color: #29BB89;
+    padding: 60px 0 50px 0;
+  }
+  .bg-green p{
+    letter-spacing: 4px;
+  }
+  .text-ijo{
+    color: #29BB89;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+
+  .page-footer-section {
+    position: relative;
+    margin-top: -10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #ffffff;
+    color: white;
+  }
+  
+  .page-footer-section.bg-dark .caption {
+    color: #ffffff;
+  }
+  
+  .page-footer-section.bg-dark hr {
+    border-color: #4d4853;
+  }
+  
+  .menu-link {
+    position: relative;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .menu-link li {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .menu-link li a {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: #5e5e5e;
+  }
+  
+  .menu-link li a:hover {
+    color: #000000;
+    text-decoration: underline;
+  }
+  
+  .page-footer-section a {
+    color: #6A6768;
+    font-size: 14px;
+    transition-duration: 0.2s;
+  }
+  .page-footer-section p {
+    color: #6A6768;
+  }
+  
+  .page-footer-section a:hover {
+    color: #29BB89;
+    text-decoration: none;
+  }
+  
+  .footer-middle {
+    padding-top: 2em;
+    color: #000000;
+  }
+
+  .des-produk{
+    margin-top: -500px;
+    margin-left: -50px;
+  }
+
+  .garis{
+    width: 80px;
+    height: 2px;
+    background-color: #29BB89;
+  }
+
+  .khasiat-card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    /* box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1); */
+    height: 300px;
+    background-color: #FFFFFF;
+  }
+  
+  .khasiat-card-title {
+    margin: 0.8em 0.8em;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+
+  .khasiat-card-text{
+      font-size: 14px;
+  }
+  
+  @media (max-width: 800px){
+    .khasiat-card {
+      border: none;
+      border-radius: 1rem;
+      transition: all 0.2s;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+      width: 230px;
+    }
+  }
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .khasiat-card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .khasiat-card:hover .btn {
+      opacity: 1;
     }
   }
