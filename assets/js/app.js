@@ -28,3 +28,9 @@ $(window).scroll(function() {
 	})
 	  
   });
+
+
+  
+  wow = new WOW();
+  
+  wow.init();
