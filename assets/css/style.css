@@ -89,6 +89,13 @@ body{
       font-weight: bold;
   }
 
+  .dropdown-menu{
+    width: 200px;
+    border: none;
+    box-shadow: 0px 0px 8px -4px #6A6768;
+    border-radius: 8px;
+  }
+
   .btn-bg-putih {
     color: #29BB89;
     background-color: #FFFFFF;
@@ -144,6 +151,26 @@ body{
     margin-bottom: 130px;
 }
 
+@media (max-width:1025px) {
+  .img-header{
+    margin-top: -620px;
+    margin-left: -50px;
+    z-index: 1;
+    margin-bottom: 130px;
+    width: 600px;
+  }
+}
+
+@media (max-width:769px) {
+  .img-header{
+    margin-top: 0px;
+    margin-left: 0px;
+    z-index: 1;
+    margin-bottom: 130px;
+    width: 600px;
+  }
+}
+
   .mt-section{
       margin-top: 100px;
   }
@@ -154,6 +181,11 @@ body{
 
   .-mt-section-2{
     margin-top: -200px;
+  }
+
+  .pro{
+    max-height: 100px;
+    width: auto;
   }
   
   .card {
@@ -175,6 +207,13 @@ body{
   .card-text{
       font-size: 14px;
   }
+
+  @media (max-width: 1025px){
+    .card {
+      width: 300px;
+      height: 320px;
+    }
+  }
   
   @media (max-width: 800px){
     .card {
@@ -182,7 +221,8 @@ body{
       border-radius: 1rem;
       transition: all 0.2s;
       box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-      width: 230px;
+      width: auto;
+      height: 350px;
     }
   }
   
@@ -242,6 +282,12 @@ body{
     filter: alpha(opacity=100); /* For IE8 and earlier */
   }
 
+  @media (max-width:800px) {
+    .img-opacity {
+      opacity: 1;
+    }
+  }
+
   /* Testimonial */
   .heading {
     position: relative;
@@ -249,9 +295,17 @@ body{
 
   .testimonials{
     width: 98vw;
-    margin-top: 200px;
+    margin-top: 180px;
+    /* justify-content: center; */
     margin-left: 100px;
     margin-right: 100px;
+  }
+
+  @media (max-width:800px) {
+    .testimonials{
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
   }
 
   .testimonials .heading h2 {
@@ -321,6 +375,45 @@ body{
       color: #7c7c7c;
   }
 
+  @media (max-width:1025px) {
+    .mt{
+      margin-top: 0px;
+    }
+    .img-bg{
+      max-height: 350px;
+      width: auto;
+    }
+    .testimonials{
+      width: 80vw;
+      margin-top: 200px;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+  }
+
+  @media (max-width:769px) {
+    .mt{
+      margin-top: -100px;
+    }
+    .mt-des{
+      margin-top: 100px;
+    }
+    .img-bg{
+      max-height: 350px;
+      width: auto;
+    }
+    .img-bg-2{
+      max-height: 350px;
+      width: auto;
+    }
+    .testimonials{
+      width: 80vw;
+      margin-top: 200px;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+  }
+
   .text-abu{
     color: #6A6768;
   }
@@ -370,6 +463,19 @@ body{
     color: #000;
     background-color: #FFFFFF;
     font-size: 14px;
+  }
+
+  @media (max-width: 1025px){
+    .card-support {
+      width: 210px;
+    }
+  }
+
+  @media (max-width: 769px){
+    .card-support {
+      width: 180px;
+      padding: 6px 0px 6px 0px;
+    }
   }
 
   @media (max-width: 800px){
@@ -894,4 +1000,62 @@ section.imageContainer {
 
 .l-s{
   letter-spacing: 4px;
+}
+
+.sec-kontak{
+  margin-top: -580px;
+  z-index: 1;
+  margin-bottom: 160px;
+}
+
+.form-control{
+  border: none;
+  box-shadow: 0px 2px 8px -3px #6A6768;
+}
+
+.maps-2{
+  width: 100%;
+  height: auto;
+}
+
+.card-download {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  /* height: 300px; */
+  background-color: #FFFFFF;
+}
+
+.card-title {
+  margin: 0.8em 0.8em;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.card-text{
+    font-size: 14px;
+}
+
+@media (max-width: 800px){
+  .card-download {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    width: 230px;
+  }
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .card-download:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .card-download:hover .btn {
+    opacity: 1;
+  }
 }

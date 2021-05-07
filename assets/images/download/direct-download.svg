@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="13px" viewBox="0 0 16 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>direct-download</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6a.-download" transform="translate(-735.000000, -585.000000)">
+            <g id="Group-13" transform="translate(43.000000, 229.000000)">
+                <g id="Group-11" transform="translate(0.000000, 55.000000)">
+                    <g id="Group-7-Copy-3" transform="translate(618.000000, 0.000000)">
+                        <g id="direct-download" transform="translate(44.000000, 290.000000)" filter="url(#filter-1)">
+                            <g transform="translate(30.000000, 11.000000)">
+                                <path d="M7.8,9.1 C7.66675,9.1 7.53935,9.0454 7.4477,8.9492 L4.0352,5.3742 C3.73945,5.0648 3.95915,4.55 4.3875,4.55 L6.175,4.55 L6.175,0.8125 C6.175,0.36465 6.53965,0 6.9875,0 L8.6125,0 C9.06035,0 9.425,0.36465 9.425,0.8125 L9.425,4.55 L11.2125,4.55 C11.64085,4.55 11.86055,5.0648 11.5648,5.3742 L8.1523,8.9492 C8.06065,9.0454 7.93325,9.1 7.8,9.1 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                                <path d="M14.4625,13 L1.1375,13 C0.51025,13 0,12.48975 0,11.8625 L0,11.5375 C0,10.91025 0.51025,10.4 1.1375,10.4 L14.4625,10.4 C15.08975,10.4 15.6,10.91025 15.6,11.5375 L15.6,11.8625 C15.6,12.48975 15.08975,13 14.4625,13 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
