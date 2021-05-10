@@ -6,10 +6,10 @@
 	navText: ['<i class="legalitas-nav legalitas-prev fas fa-chevron-left"></i>','<i class="legalitas-nav legalitas-next fas fa-chevron-right"></i>'],
 	responsive:{
 	  0:{
-		items: 3,
+		items: 1.6,
 	  },
 	  768:{
-		items: 2.3,
+		items: 2.6,
 	  },
 	  990:{
 		items: 3.6,
