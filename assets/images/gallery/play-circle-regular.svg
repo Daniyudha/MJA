@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="67px" height="67px" viewBox="0 0 67 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>play-circle-regular</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.526863 0 0 0 0 0.526863 0 0 0 0 0.526863 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="7a.-gallery" transform="translate(-650.000000, -423.000000)">
+            <g id="play-circle-regular" transform="translate(252.000000, 308.000000)" filter="url(#filter-1)">
+                <g transform="translate(398.000000, 115.000000)">
+                    <path d="M49.1288306,31.0685484 L25.3546371,16.6149194 C23.2203629,15.4262097 20.5322581,16.952621 20.5322581,19.4516129 L20.5322581,47.5483871 C20.5322581,50.033871 23.2068548,51.5737903 25.3546371,50.3850806 L49.1288306,36.7419355 C51.3441532,35.5127016 51.3441532,32.3112903 49.1288306,31.0685484 Z M67,33.5 C67,14.9939516 52.0060484,0 33.5,0 C14.9939516,0 0,14.9939516 0,33.5 C0,52.0060484 14.9939516,67 33.5,67 C52.0060484,67 67,52.0060484 67,33.5 Z M6.48387097,33.5 C6.48387097,18.5735887 18.5735887,6.48387097 33.5,6.48387097 C48.4264113,6.48387097 60.516129,18.5735887 60.516129,33.5 C60.516129,48.4264113 48.4264113,60.516129 33.5,60.516129 C18.5735887,60.516129 6.48387097,48.4264113 6.48387097,33.5 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
