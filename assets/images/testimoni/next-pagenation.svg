@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>next</title>
+    <defs>
+        <filter x="-58.3%" y="-58.3%" width="216.7%" height="216.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.164705882   0 0 0 0 0.180392157   0 0 0 0 0.239215686  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="8a.-testimoni" transform="translate(-823.000000, -3686.000000)" fill-rule="nonzero">
+            <g id="Group-5" transform="translate(501.000000, 3699.000000)">
+                <g id="next" filter="url(#filter-1)" transform="translate(335.000000, 0.000000)">
+                    <path d="M15,0 C6.72873047,0 0,6.72873047 0,15 C0,23.2712695 6.72873047,30 15,30 C23.2712695,30 30,23.2712695 30,15 C30,6.72873047 23.2712695,0 15,0 Z" id="Path" fill="#29BB89"></path>
+                    <path d="M19.6337695,15.8837695 L13.38375,22.1337305 C13.14,22.3774805 12.8200195,22.5 12.4999805,22.5 C12.18,22.5 11.8599609,22.3774805 11.6162109,22.1337305 C11.1274805,21.645 11.1274805,20.8549805 11.6162109,20.36625 L16.9825195,15 L11.6162695,9.63375 C11.1275391,9.14501953 11.1275391,8.355 11.6162695,7.86626953 C12.105,7.37753906 12.8950195,7.37753906 13.38375,7.86626953 L19.6337695,14.1162891 C20.1225,14.6050195 20.1225,15.3949805 19.6337695,15.8837695 Z" id="right-arrow-pagenation" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

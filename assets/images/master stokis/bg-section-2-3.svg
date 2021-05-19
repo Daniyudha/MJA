@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="211px" height="458px" viewBox="0 0 211 458" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bg-section-2-3</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="211" height="458"></rect>
+    </defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="11a.-daftar-master-stokis" transform="translate(1.000000, -1303.000000)">
+            <g id="bg-section-2-3" transform="translate(-1.000000, 1303.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g id="Group-10" mask="url(#mask-2)">
+                    <g transform="translate(-210.000000, 8.000000)" id="Rectangle-4">
+                        <path d="M317.853549,4.53099267 L355.509501,79.445677 C360.470206,89.314759 356.49118,101.336677 346.622098,106.297382 C343.835146,107.698247 340.759166,108.427829 337.639947,108.427829 L262.725262,108.427829 C251.679567,108.427829 242.725262,99.4735236 242.725262,88.4278286 C242.725262,85.3372721 243.441502,82.2887631 244.817769,79.5215571 L282.076502,4.60687277 C286.9953,-5.28316286 299.000231,-9.31314727 308.890267,-4.39434934 C312.764942,-2.46728376 315.910065,0.664526005 317.853549,4.53099267 Z" fill="#29BB89" transform="translate(300.147498, 57.147541) rotate(353.000000) translate(-300.147498, -57.147541) "></path>
+                        <rect fill="#DDFFEB" opacity="0.900000036" transform="translate(210.437278, 239.437278) rotate(-19.000000) translate(-210.437278, -239.437278) " x="44.8802999" y="73.8802999" width="331.113957" height="331.113957" rx="100"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

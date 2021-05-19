@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>previous</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.160784 0 0 0 0 0.733333 0 0 0 0 0.537255 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="previous" transform="translate(-108.000000, -463.000000)" filter="url(#filter-1)">
+            <g transform="translate(133.000000, 488.000000) scale(-1, 1) translate(-133.000000, -488.000000) translate(108.000000, 463.000000)">
+                <path d="M25,0 C11.2145508,0 0,11.2145508 0,25 C0,38.7854492 11.2145508,50 25,50 C38.7854492,50 50,38.7854492 50,25 C50,11.2145508 38.7854492,0 25,0 Z M32.7229492,26.4729492 L22.30625,36.8895508 C21.9,37.2958008 21.3666992,37.5 20.8333008,37.5 C20.3,37.5 19.7666016,37.2958008 19.3603516,36.8895508 C18.5458008,36.075 18.5458008,34.7583008 19.3603516,33.94375 L28.3041992,25 L19.3604492,16.05625 C18.5458984,15.2416992 18.5458984,13.925 19.3604492,13.1104492 C20.175,12.2958984 21.4916992,12.2958984 22.30625,13.1104492 L32.7229492,23.5271484 C33.5375,24.3416992 33.5375,25.6583008 32.7229492,26.4729492 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

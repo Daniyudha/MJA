@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="77px" viewBox="0 0 66 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>location</title>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="11a.-daftar-master-stokis" transform="translate(-249.000000, -882.000000)" fill-rule="nonzero">
+            <g id="location" transform="translate(249.000000, 882.000000)">
+                <path d="M65.71,32.2867854 C65.71,52.5767854 32.85,76.6567854 32.85,76.6567854 C32.85,76.6567854 0,56.4367854 0,32.2867854 C0.312679566,14.3648992 14.9303864,0 32.855,0 C50.7796136,0 65.3973204,14.3648992 65.71,32.2867854 Z" id="Path" fill="#F92603"></path>
+                <circle id="Oval" fill="#FFFFFF" transform="translate(32.847536, 32.291198) rotate(-76.720000) translate(-32.847536, -32.291198) " cx="32.8475361" cy="32.2911976" r="20.29"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
