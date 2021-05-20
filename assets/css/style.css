@@ -122,8 +122,8 @@ body{
   
   .btn-bg-ijo:hover {
   color: #FFFFFF;
-  background-color: #0aa56f;
-  border-color: #0aa56f;
+  background-color: #37ecad;
+  border-color: #37ecad;
   text-decoration: none;
   }
 
@@ -278,6 +278,10 @@ body{
     font-size: 18px;
   }
 
+  .card-artikel h3{
+    font-size: 20px;
+  }
+
   .card-artikel p{
     font-size: 12px;
   }
@@ -307,6 +311,12 @@ body{
     }
     .-mt-profil{
       margin-top: -190px;
+    }
+    .card-artikel h5{
+      font-size: 14px;
+    }
+    .card-artikel h3{
+      font-size: 18px;
     }
     .card-artikel-out h3{
       font-size: 13px;
@@ -1387,21 +1397,37 @@ section.imageContainer {
   margin-bottom: 160px;
 }
 
+.sec-stokis{
+  margin-top: -580px;
+  z-index: 1;
+  margin-bottom: 0px;
+}
+
 .sec-produk{
   margin-top: -750px;
   z-index: 1;
   margin-bottom: 100px;
 }
 
+.mt-bg{
+  margin-left: 135px;
+  max-width: 100%;
+  height: auto;
+}
+
 @media (max-width:1024px) {
   .mt-bg{
-    margin-left: 15px;
+    margin-left: 110px;
     max-width: 100%;
     height: auto;
   }
   .sec-kontak{
     margin-top: -350px;
     margin-bottom: 80px;
+  }
+  .sec-stokis{
+    margin-top: -380px;
+    margin-bottom: 0px;
   }
   .sec-produk{
     margin-top: -500px;
@@ -1421,6 +1447,10 @@ section.imageContainer {
     margin-top: -410px;
     margin-bottom: 70px;
   }
+  .sec-stokis{
+    margin-top: -410px;
+    margin-bottom: 0px;
+  }
   .sec-produk{
     margin-top: -380px;
     z-index: 1;
@@ -1429,9 +1459,12 @@ section.imageContainer {
 }
 
 @media (max-width:500px) {
+  .mt-7{
+    margin-top: 200px !important;
+  }
   .mt-bg{
     margin-top: 70px;
-    margin-left: 30px;
+    margin-left: 15px;
     max-width: 100%;
     height: auto;
   }
@@ -1439,6 +1472,10 @@ section.imageContainer {
     margin-top: -340px;
     margin-bottom: 70px;
     margin-left: 20px;
+  }
+  .sec-stokis{
+    margin-top: -340px;
+    margin-bottom: 0px;
   }
   .sec-produk{
     margin-top: 0px;
@@ -1463,6 +1500,10 @@ section.imageContainer {
     margin-bottom: 70px;
     margin-left: 0px;
   }
+  .sec-stokis{
+    margin-top: -300px;
+    margin-bottom: 0px;
+  }
 }
 
 @media (max-width:326px) {
@@ -1476,6 +1517,10 @@ section.imageContainer {
     margin-top: -260px;
     margin-bottom: 70px;
     margin-left: 0px;
+  }
+  .sec-stokis{
+    margin-top: -260px;
+    margin-bottom: 0px;
   }
   .t-g{
     font-size: 26px;
@@ -1828,4 +1873,192 @@ section.imageContainer {
   background-color: #29BB89;
   border-radius: 100%;
   color: #fff;
+}
+
+.mt-6{
+  margin-top: 230px;
+}
+
+.loc1{
+  position: absolute;
+  top: 5%;
+  left: 24%;
+}
+
+.loc-gray1-1{
+  position: absolute;
+  top: 35%;
+  left: 40%;
+}
+
+.loc-gray1-2{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+
+.loc-gray1-3{
+  position: absolute;
+  top: 78%;
+  left: 73%;
+}
+
+.loc2{
+  position: absolute;
+  top: -20%;
+  left: 15%;
+}
+
+.loc-gray2-1{
+  position: absolute;
+  top: 35%;
+  left: 65%;
+}
+
+.loc3{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.loc-gray4-1{
+  position: absolute;
+  top: 70%;
+  left: 13%;
+}
+
+.loc-gray4-2{
+  position: absolute;
+  top: 65%;
+  left: 52%;
+}
+
+.loc5{
+  position: absolute;
+  top: 35%;
+  left: 55%;
+}
+
+@media (max-width:1025px) {
+  .loc1{
+    position: absolute;
+    top: 5%;
+    left: 25%;
+  }
+  
+  .loc-gray1-1{
+    position: absolute;
+    top: 33%;
+    left: 43%;
+  }
+  
+  .loc-gray1-2{
+    position: absolute;
+    top: 48%;
+    left: 42%;
+  }
+  
+  .loc-gray1-3{
+    position: absolute;
+    top: 78%;
+    left: 78%;
+  }
+  
+  .loc2{
+    position: absolute;
+    top: -33%;
+    left: 15%;
+  }
+  
+  .loc-gray2-1{
+    position: absolute;
+    top: 23%;
+    left: 63%;
+  }
+  
+  .loc3{
+    position: absolute;
+    top: 45%;
+    left: 8%;
+  }
+  
+  .loc-gray4-1{
+    position: absolute;
+    top: 73%;
+    left: 10%;
+  }
+  
+  .loc-gray4-2{
+    position: absolute;
+    top: 63%;
+    left: 52%;
+  }
+  
+  .loc5{
+    position: absolute;
+    top: 33%;
+    left: 60%;
+  }
+}
+
+@media (max-width:769px) {
+  .loc1{
+    position: absolute;
+    top: 0%;
+    left: 22%;
+  }
+  
+  .loc-gray1-1{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+  }
+  
+  .loc-gray1-2{
+    position: absolute;
+    top: 48%;
+    left: 44%;
+  }
+  
+  .loc-gray1-3{
+    position: absolute;
+    top: 70%;
+    left: 75%;
+  }
+  
+  .loc2{
+    position: absolute;
+    top: -50%;
+    left: 13%;
+  }
+  
+  .loc-gray2-1{
+    position: absolute;
+    top: 5%;
+    left: 60%;
+  }
+  
+  .loc3{
+    position: absolute;
+    top: 33%;
+    left: 5%;
+  }
+  
+  .loc-gray4-1{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+  }
+  
+  .loc-gray4-2{
+    position: absolute;
+    top: 57%;
+    left: 48%;
+  }
+  
+  .loc5{
+    position: absolute;
+    top: 22%;
+    left: 57%;
+  }
 }
