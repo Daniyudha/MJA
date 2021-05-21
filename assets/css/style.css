@@ -154,7 +154,12 @@ body{
   }
 
   .sec-home{
-    margin-top: -600px;
+    margin-top: -550px;
+    margin-bottom: 200px;
+  }
+
+  .sec-company{
+    margin-top: -550px;
     margin-bottom: 100px;
   }
 
@@ -169,7 +174,11 @@ body{
   }
   .sec-home{
     margin-top: -400px;
-    margin-bottom: 80px;
+    margin-bottom: 150px;
+  }
+  .sec-company{
+    margin-top: -400px;
+    margin-bottom: 100px;
   }
 }
 
@@ -186,7 +195,11 @@ body{
   }
   .sec-home{
     margin-top: -450px;
-    margin-bottom: 130px;
+    margin-bottom: 150px;
+  }
+  .sec-company{
+    margin-top: -450px;
+    margin-bottom: 200px;
   }
 }
 
@@ -195,6 +208,10 @@ body{
     margin-top: -650px;
     margin-bottom: 80px;
   }
+  .sec-company{
+    margin-top: -350px;
+    margin-bottom: 100px;
+  }
 }
 
 @media (max-width:400px) {
@@ -202,11 +219,19 @@ body{
     margin-top: -600px;
     margin-bottom: 80px;
   }
+  .sec-company{
+    margin-top: -300px;
+    margin-bottom: 100px;
+  }
 }
 @media (max-width:330px) {
   .sec-home{
     margin-top: -550px;
     margin-bottom: 80px;
+  }
+  .sec-company{
+    margin-top: -250px;
+    margin-bottom: 100px;
   }
 }
 
@@ -1090,7 +1115,7 @@ body{
   }
 
   .sec-leg{
-    margin-top: -650px;
+    margin-top: -530px;
     z-index: 1;
     margin-bottom: 100px;
   }
@@ -1392,19 +1417,19 @@ section.imageContainer {
 }
 
 .sec-kontak{
-  margin-top: -580px;
+  margin-top: -450px;
   z-index: 1;
   margin-bottom: 160px;
 }
 
 .sec-stokis{
-  margin-top: -580px;
+  margin-top: -500px;
   z-index: 1;
   margin-bottom: 0px;
 }
 
 .sec-produk{
-  margin-top: -750px;
+  margin-top: -630px;
   z-index: 1;
   margin-bottom: 100px;
 }
@@ -1430,7 +1455,7 @@ section.imageContainer {
     margin-bottom: 0px;
   }
   .sec-produk{
-    margin-top: -500px;
+    margin-top: -490px;
     z-index: 1;
     margin-bottom: 160px;
   }
@@ -1452,9 +1477,9 @@ section.imageContainer {
     margin-bottom: 0px;
   }
   .sec-produk{
-    margin-top: -380px;
+    margin-top: -490px;
     z-index: 1;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
   }
 }
 
@@ -1612,12 +1637,17 @@ section.imageContainer {
 }
 
 .slider {
-  width: 60%;
+  width: 50%;
+  margin: 50px auto;
+}
+
+.slider-2 {
+  width: 80%;
   margin: 50px auto;
 }
 
 .slick-slide {
-  margin: 0px 10px;
+  margin: 0px 0px;
 }
 
 .slick-slide img {
@@ -1626,8 +1656,10 @@ section.imageContainer {
 
 .slick-prev:before,
 .slick-next:before {
-  color: black;
-  background-color: aquamarine;
+  padding: 15px 20px;
+  border-radius: 100%;
+  color: white;
+  background-color: #29BB89;
 }
 
 
@@ -1645,7 +1677,7 @@ section.imageContainer {
 }
 
 .js .slider-single>div:nth-child(1n+2) {
-  display: none
+  display: none;
 }
 
 .js .slider-single.slick-initialized>div:nth-child(1n+2) {

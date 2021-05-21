@@ -18,6 +18,11 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+.slider-single{
+    border: 20px solid #000;
+    border-radius: 1rem;
+}
+
 .slick-list
 {
     position: relative;
